@@ -12,6 +12,7 @@ print('Availible devices: %i' % ngpus)
 
 def main(num_iter=20, num_warmups=5):
     device_list = []
+    fake_img = Variable(torch.randn(16, 3, 224, 224), volatile=True).cuda()
     for i in range(0, ngpus+2, 2):
         devices = []
         for ngpu in range(i):
@@ -23,9 +24,10 @@ def main(num_iter=20, num_warmups=5):
         if len(devices) > 0:
             model = nn.DataParallel(model, device_ids=devices)
         model.cuda()
+        model.eval()
         print('Starting benchmarking %i gpus' %(0 if len(devices)==0 else len(devices)))
         durations = []
-        fake_img = Variable(torch.randn(16, 3, 224, 224)).cuda()
+
         for i in range(num_iter + num_warmups):
             torch.cuda.synchronize()
             start = time.time()
