@@ -11,7 +11,6 @@ print('Availible devices: %i' % ngpus)
 
 
 def main(num_iter=20, num_warmups=5):
-    # resnet = resnet152()
     device_list = []
     for i in range(0, ngpus+2, 2):
         devices = []
@@ -36,6 +35,6 @@ def main(num_iter=20, num_warmups=5):
             if i >= num_warmups:
                 durations.append(end - start)
                 print('\rTime spent %.4fms' % ((end - start)*1000), flush=True, end='')
-        print('\nAverage time spent %.4fms' % np.mean(durations) * 1000)
+        print('\nAverage time spent %.4fms' % (np.mean(durations)*1000))
         del model
 main()
