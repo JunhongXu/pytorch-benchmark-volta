@@ -43,5 +43,8 @@ For training, time durations of 20 passes of forward and backward are averaged. 
 
 ### Comparison between GPUs on variant batch sizes (inference only)
 
-ResNet18 is used for comparison. 
+ResNet18 is used for the comparison. Legend indicates batch size, x-axis is number of GPUs, y-axis is averaged duration 
+of 20 forward passes. When # of GPUs is smaller than 256, 1 GPU has the best performance. When # of GPUs is larger than 256, 
+more GPUs give faster computation, but adding GPU beyond 2 does not help.
 
+![](results/gpu_batch_size.png)

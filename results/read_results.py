@@ -23,9 +23,9 @@ def read_gpus():
             batch_size, num_gpu, duration = re.findall(r'\d+\.\d+|\d+', line)
             batch_sizes[int(batch_size)].append(float(duration))
 
-    print(batch_sizes)
-    for d in batch_sizes.keys():
+    for d in sorted(batch_sizes.keys()):
         plt.plot(batch_sizes[d], label=d)
+    plt.xticks(range(9), [i for i in range(1, 9)])
     plt.legend()
     plt.show()
 
