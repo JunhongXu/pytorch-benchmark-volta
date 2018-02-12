@@ -37,6 +37,7 @@ def main():
                     duration = (end - start) * 1000
                     durations.append(duration)
             benchmark[batch_size].append(durations)
+            del model
     return benchmark
 
 
