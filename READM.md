@@ -6,7 +6,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161**
 2. Multiple GPUs vs variant batch sizes: from the initial observation of using 8 GPUs to do inference using batch size with 16
 gives me much lower speed. I assume this might be caused by communication between GPUs, but I am not sure what information is ported
 from one GPU to others. This experiment wants to find how the computation speed changes 
-when we change # of GPUs use and the batch size. ResNet-50 is used across this experiment.
+when we change # of GPUs use and the batch size. ResNet101 is used across this experiment.
     - 1 GPU with batch size [2**i for i in range(4, 10)]
     - 2 GPU with batch size [2**i for i in range(4, 10)]
     - 3 GPU with batch size [2**i for i in range(4, 10)]
@@ -17,3 +17,10 @@ when we change # of GPUs use and the batch size. ResNet-50 is used across this e
     - 8 GPU with batch size [2**i for i in range(4, 10)]
     
 ## Results
+
+### Compare between networks (single GPU)
+
+|   vgg16  |  vgg19-bn  | vgg19  | resnet34| resnet50|
+| :--------- :|:-------------:| -----:| --------:|:---:|
+| col 3 is  | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
