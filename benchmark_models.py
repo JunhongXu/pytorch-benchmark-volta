@@ -3,12 +3,15 @@ import torch
 from torchvision.models import resnet, densenet, vgg, squeezenet
 from torch.autograd import Variable
 import matplotlib
-
+from info_utils import print_info
 # set the backend that does not use display, necessary for DGX-1
 matplotlib.use('Agg')
 from matplotlib import pyplot as plt
+import numpy as np
 import torch.nn as nn
 import time
+
+print_info()
 
 MODEL_LIST = {
     resnet: resnet.__all__[1:],
@@ -43,7 +46,7 @@ def train():
             model.cuda()
             model.eval()
             durations = []
-            print('Benchmarking on %s' % (model_name))
+            print('Benchmarking %s' % (model_name))
             for step in range(WARM_UP + NUM_TEST):
                 torch.cuda.synchronize()
                 start = time.time()
@@ -54,8 +57,8 @@ def train():
                 torch.cuda.synchronize()
                 end = time.time()
                 if step >= WARM_UP:
-                    durations.append(end - start)
-
+                    durations.append((end - start)*1000)
+            del model
             benchmark[model_name] = durations
     return benchmark
 
@@ -65,4 +68,6 @@ def inference():
 
 
 if __name__ == '__main__':
-    print(train())
+    speeds = train()
+    for speed in speeds:
+        print('Model %s avg speed is %.4f' % (speed, np.mean(speeds[speed])))
