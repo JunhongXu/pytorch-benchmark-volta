@@ -18,9 +18,9 @@ when we change # of GPUs use and the batch size. ResNet101 is used across this e
     
 ## Results
 
-### Compare between networks (single GPU)
+### Compare between networks (single GPU, training)
 
-|   vgg16  |  vgg19-bn  | vgg19  | resnet34| resnet50|
-| :--------- :|:-------------:| -----:| --------:|:---:|
-| col 3 is  | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+|   Mode  |squeezenet1_1| resnet18|seqeezenet1_0| resnet34| resnet50  |densenet121| vgg16 |densenet169| vgg19 |resnet101|densenet201|resnet152|densenet161|
+|:-------:| :----------:|:-------:|:-----------:|:-------:|:---------:| ---------:|:-----:|:---------:|:-----:|:------:|:---------:|:-------:|:---------:|
+|Training | 17.16ms     |18.09ms  |   18.58ms   | 30.04ms | 55.07ms   |  66.56ms  |76.74ms|  85.95ms  |88.35ms| 93.59ms| 108.81ms  |131.27ms |  131.55ms |
+|Inference| 3.32ms      |5.03ms   |   5.24ms    | 8.51ms  | 15.74ms   |20.289ms   |23.83ms|  27.73ms  |27.66ms| 26.65ms|  36.27    |38.01ms  |   41.19ms |
