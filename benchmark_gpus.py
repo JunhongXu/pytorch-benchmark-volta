@@ -1,42 +1,47 @@
 import torch.nn as nn
 from torch.autograd import Variable
-from torchvision.models.resnet import resnet152
+from torchvision.models.resnet import resnet50
 import torch
 import time
 import numpy as np
 
 torch.backends.cudnn.benchmark = True
-ngpus = torch.cuda.device_count()
-print('Availible devices: %i' % ngpus)
+
+NUM_GPUS = torch.cuda.device_count()
+BATCH_LIST = [2**x for x in range(4, 10)] # 16 to 1024
+WARM_UP = 5
+NUM_STEP = 20
+
+def main():
+    benchmark = {}
+    for batch_size in BATCH_LIST:
+        benchmark[batch_size] = []
+        for gpu in range(1, NUM_GPUS + 1):
+            print('Benchmarking ResNet50 on batch size %i with %i GPUs' % (batch_size, gpu))
+            model = resnet50()
+            if gpu > 1:
+                model = nn.DataParallel(model)
+            model.cuda()
+            model.eval()
+
+            img = Variable(torch.randn(batch_size, 3, 224, 224), volatile=True).cuda()
+            durations = []
+            for step in range(NUM_STEP + WARM_UP):
+                # test
+                torch.cuda.synchronize()
+                start = time.time()
+                model(img)
+                torch.cuda.synchronize()
+                end = time.time()
+                if step >= WARM_UP:
+                    duration = (end - start) * 1000
+                    durations.append(duration)
+            benchmark[batch_size].append(durations)
+    return benchmark
 
 
-def main(num_iter=20, num_warmups=5):
-    device_list = []
-    fake_img = Variable(torch.randn(16, 3, 224, 224), volatile=True).cuda()
-    for i in range(0, ngpus+2, 2):
-        devices = []
-        for ngpu in range(i):
-            devices.append(ngpu)
-        device_list.append(devices)
-
-    for devices in device_list:
-        model = resnet152()
-        if len(devices) > 0:
-            model = nn.DataParallel(model, device_ids=devices)
-        model.cuda()
-        model.eval()
-        print('Starting benchmarking %i gpus' %(0 if len(devices)==0 else len(devices)))
-        durations = []
-
-        for i in range(num_iter + num_warmups):
-            torch.cuda.synchronize()
-            start = time.time()
-            model(fake_img)
-            torch.cuda.synchronize()
-            end = time.time()
-            if i >= num_warmups:
-                durations.append(end - start)
-                print('\rTime spent %.4fms' % ((end - start)*1000), flush=True, end='')
-        print('\nAverage time spent %.4fms' % (np.mean(durations)*1000))
-        del model
-main()
+if __name__ == '__main__':
+    benchmark = main()
+    for key in benchmark.keys():
+        for gpu, duration in enumerate(benchmark[key]):
+            print('Batch size %i, # of GPUs %i, time cost %.4fms' % (key, gpu + 1, np.mean(duration)))

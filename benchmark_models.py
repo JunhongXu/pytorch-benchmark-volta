@@ -2,14 +2,11 @@
 import torch
 from torchvision.models import resnet, densenet, vgg, squeezenet
 from torch.autograd import Variable
-import matplotlib
 from info_utils import print_info
-# set the backend that does not use display, necessary for DGX-1
-matplotlib.use('Agg')
-from matplotlib import pyplot as plt
-import numpy as np
 import torch.nn as nn
 import time
+import pandas
+
 
 print_info()
 
@@ -17,7 +14,7 @@ MODEL_LIST = {
     resnet: resnet.__all__[1:],
     densenet: densenet.__all__[1:],
     squeezenet: squeezenet.__all__[1:],
-    vgg: vgg.__all__[4:]
+    vgg: vgg.__all__[5:]
 }
 
 # for model_type in MODEL_LIST.keys():
@@ -32,6 +29,8 @@ BATCH_SIZE = 16
 NUM_CLASSES = 100
 
 
+
+
 def train():
     """use fake image for training speed test"""
     img = Variable(torch.randn(BATCH_SIZE, 3, 224, 224)).cuda()
@@ -44,7 +43,7 @@ def train():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
             model.cuda()
-            model.eval()
+            model.train()
             durations = []
             print('Benchmarking %s' % (model_name))
             for step in range(WARM_UP + NUM_TEST):
@@ -64,10 +63,32 @@ def train():
 
 
 def inference():
-    pass
+    benchmark = {}
+    img = Variable(torch.randn(BATCH_SIZE, 3, 224, 224), volatile=True).cuda()
+    for model_type in MODEL_LIST.keys():
+        # model = getattr()
+        for model_name in MODEL_LIST[model_type]:
+            model = getattr(model_type, model_name)()
+            model.cuda()
+            model.eval()
+            durations = []
+            print('Benchmarking %s' % (model_name))
+            for step in range(WARM_UP + NUM_TEST):
+                torch.cuda.synchronize()
+                start = time.time()
+                model.forward(img)
+                torch.cuda.synchronize()
+                end = time.time()
+                if step >= WARM_UP:
+                    durations.append((end - start)*1000)
+            del model
+            benchmark[model_name] = durations
+    return benchmark
 
 
 if __name__ == '__main__':
-    speeds = train()
-    for speed in speeds:
-        print('Model %s avg speed is %.4f' % (speed, np.mean(speeds[speed])))
+    training_benchmark = pandas.DataFrame(train())
+    training_benchmark.to_csv('results/model_training_benchmark', index=False)
+
+    inference_benchmark = pandas.DataFrame(inference())
+    inference_benchmark.to_csv('results/model_inference_benchmark', index=False)
