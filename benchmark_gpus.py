@@ -1,6 +1,6 @@
 import torch.nn as nn
 from torch.autograd import Variable
-from torchvision.models.resnet import resnet50
+from torchvision.models.resnet import resnet101
 import torch
 import time
 import numpy as np
@@ -18,7 +18,7 @@ def main():
         benchmark[batch_size] = []
         for gpu in range(1, NUM_GPUS + 1):
             print('Benchmarking ResNet50 on batch size %i with %i GPUs' % (batch_size, gpu))
-            model = resnet50()
+            model = resnet101()
             if gpu > 1:
                 model = nn.DataParallel(model)
             model.cuda()
