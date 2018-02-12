@@ -43,7 +43,7 @@ def train():
             model.cuda()
             model.eval()
             durations = []
-
+            print('Benchmarking on %s' % (model_name))
             for step in range(WARM_UP + NUM_TEST):
                 torch.cuda.synchronize()
                 start = time.time()
