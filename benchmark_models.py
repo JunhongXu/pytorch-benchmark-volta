@@ -25,13 +25,7 @@ parser.add_argument('--BATCH_SIZE','-b', type=int, default=32, required=False, h
 parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
 parser.add_argument('--DATA_TYPE','-t', type=int, default=1, required=False, help='Floating data type Ex Double ,Float ,Half')
 args = parser.parse_args()
-
-
 torch.backends.cudnn.benchmark = True
-
-
-
-
 def train():
     """use fake image for training speed test"""
     img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224)).cuda()
@@ -41,13 +35,13 @@ def train():
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
-            model.cuda()
             if args.DATA_TYPE is 1:
-                model=model.Double()
+                model=model.double()
             elif args.DATA_TYPE is 2:
-                model=model.Float()
+                model=model.float()
             elif args.DATA_TYPE is 3:
-                model=model.Half()
+                model=model.half()
+            model.cuda()
             model.train()
             durations = []
             print('Benchmarking %s' % (model_name))
@@ -66,20 +60,19 @@ def train():
             benchmark[model_name] = durations
     return benchmark
 
-
 def inference():
     benchmark = {}
     img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224), volatile=True).cuda()
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
-            model.cuda()
             if args.DATA_TYPE is 1:
-                model=model.Double()
+                model=model.double()
             elif args.DATA_TYPE is 2:
-                model=model.Float()
+                model=model.float()
             elif args.DATA_TYPE is 3:
-                model=model.Half()
+                model=model.half()
+            model.cuda()
             model.eval()
             durations = []
             print('Benchmarking %s' % (model_name))
