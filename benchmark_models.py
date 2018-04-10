@@ -37,10 +37,16 @@ def train():
             model = getattr(model_type, model_name)()
             if args.DATA_TYPE is 1:
                 model=model.double()
+                img=img.double()
+                target=target.double()
             elif args.DATA_TYPE is 2:
                 model=model.float()
+                img=img.float()
+                target=target.float()
             elif args.DATA_TYPE is 3:
                 model=model.half()
+                img=img.half()
+                target=target.half()
             model.cuda()
             model.train()
             durations = []
@@ -68,10 +74,13 @@ def inference():
             model = getattr(model_type, model_name)()
             if args.DATA_TYPE is 1:
                 model=model.double()
+                img=img.double()
             elif args.DATA_TYPE is 2:
                 model=model.float()
+                img=img.float()
             elif args.DATA_TYPE is 3:
                 model=model.half()
+                img=img.half()
             model.cuda()
             model.eval()
             durations = []
