@@ -97,7 +97,7 @@ def inference():
 
 
 if __name__ == '__main__':
-    os.makedir('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE))
+    os.makedirs('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE))
     training_benchmark = pandas.DataFrame(train())
     training_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark', index=False)
     training_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark_describe', index=False)
