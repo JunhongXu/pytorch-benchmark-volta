@@ -95,12 +95,17 @@ def inference():
             benchmark[model_name] = durations
     return benchmark
 
+parser.add_argument('--WARM_UP','-w', type=int,default=10, required=False, help="Num of warm up")
+parser.add_argument('--NUM_TEST','-n', type=int,default=100,required=False, help="Num of Test")
+parser.add_argument('--BATCH_SIZE','-b', type=int, default=32, required=False, help='Num of batch size')
+parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
+parser.add_argument('--DATA_TYPE','-t', type=int, default=1, required=False, help='Floating data type Ex Double ,Float ,Half')
 
 if __name__ == '__main__':
     training_benchmark = pandas.DataFrame(train())
-    training_benchmark.to_csv('results/model_training_benchmark', index=False)
-    training_benchmark.describe().to_csv('results/model_training_benchmark_describe', index=False)
+    training_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark', index=False)
+    training_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark_describe', index=False)
 
     inference_benchmark = pandas.DataFrame(inference())
-    inference_benchmark.to_csv('results/model_inference_benchmark', index=False)
-    inference_benchmark.describe().to_csv('results/model_inference_benchmark_describe', index=False)
+    inference_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark', index=False)
+    inference_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark_describe', index=False)
