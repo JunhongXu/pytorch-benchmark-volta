@@ -6,7 +6,7 @@ from info_utils import print_info
 import torch.nn as nn
 import time
 import pandas
-
+import argparse
 
 print_info()
 
@@ -17,36 +17,38 @@ MODEL_LIST = {
     vgg: vgg.__all__[5:]
 }
 
-# for model_type in MODEL_LIST.keys():
-#     for model_name in MODEL_LIST[model_type]:
-#         print(getattr(model_type, model_name)())
-
+# Training settings
+parser = argparse.ArgumentParser(description='PyTorch Benchmarking')
+parser.add_argument('--WARM_UP','-w', type=int,default=10, required=False, help="Num of warm up")
+parser.add_argument('--NUM_TEST','-n', type=int,default=100,required=False, help="Num of Test")
+parser.add_argument('--BATCH_SIZE','-b', type=int, default=16, required=False, help='Num of batch size')
+parser.add_argument('--NUM_CLASSES','-c', type=int, default=100, required=False, help='Num of class')
+parser.add_argument('--DATA_TYPE','-t', type=int, default=1, required=False, help='Floating data type Ex Double ,Float ,Half')
+args = parser.parse_args()
 torch.backends.cudnn.benchmark = True
-
-WARM_UP = 5
-NUM_TEST = 20
-BATCH_SIZE = 16
-NUM_CLASSES = 100
-
-
-
-
 def train():
     """use fake image for training speed test"""
-    img = Variable(torch.randn(BATCH_SIZE, 3, 224, 224)).cuda()
-    target = Variable(torch.LongTensor(BATCH_SIZE).random_(NUM_CLASSES)).cuda()
+    img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224)).cuda()
+    target = Variable(torch.LongTensor(args.BATCH_SIZE).random_(args.NUM_CLASSES)).cuda()
     criterion = nn.CrossEntropyLoss()
-
     benchmark = {}
     for model_type in MODEL_LIST.keys():
-        # model = getattr()
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
+            if args.DATA_TYPE is 1:
+                model=model.double()
+                img=img.double()
+            elif args.DATA_TYPE is 2:
+                model=model.float()
+                img=img.float()
+            elif args.DATA_TYPE is 3:
+                model=model.half()
+                img=img.half()
             model.cuda()
             model.train()
             durations = []
             print('Benchmarking %s' % (model_name))
-            for step in range(WARM_UP + NUM_TEST):
+            for step in range(args.WARM_UP + args.NUM_TEST):
                 torch.cuda.synchronize()
                 start = time.time()
                 model.zero_grad()
@@ -55,40 +57,50 @@ def train():
                 loss.backward()
                 torch.cuda.synchronize()
                 end = time.time()
-                if step >= WARM_UP:
+                if step >= args.WARM_UP:
                     durations.append((end - start)*1000)
             del model
             benchmark[model_name] = durations
     return benchmark
 
-
 def inference():
     benchmark = {}
-    img = Variable(torch.randn(BATCH_SIZE, 3, 224, 224), volatile=True).cuda()
+    img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224), volatile=True).cuda()
     for model_type in MODEL_LIST.keys():
-        # model = getattr()
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
+            if args.DATA_TYPE is 1:
+                model=model.double()
+                img=img.double()
+            elif args.DATA_TYPE is 2:
+                model=model.float()
+                img=img.float()
+            elif args.DATA_TYPE is 3:
+                model=model.half()
+                img=img.half()
             model.cuda()
             model.eval()
             durations = []
             print('Benchmarking %s' % (model_name))
-            for step in range(WARM_UP + NUM_TEST):
+            for step in range(args.WARM_UP + args.NUM_TEST):
                 torch.cuda.synchronize()
                 start = time.time()
                 model.forward(img)
                 torch.cuda.synchronize()
                 end = time.time()
-                if step >= WARM_UP:
+                if step >= args.WARM_UP:
                     durations.append((end - start)*1000)
             del model
             benchmark[model_name] = durations
     return benchmark
 
 
+
 if __name__ == '__main__':
     training_benchmark = pandas.DataFrame(train())
-    training_benchmark.to_csv('results/model_training_benchmark', index=False)
+    training_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark', index=False)
+    training_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark_describe', index=False)
 
     inference_benchmark = pandas.DataFrame(inference())
-    inference_benchmark.to_csv('results/model_inference_benchmark', index=False)
+    inference_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark', index=False)
+    inference_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark_describe', index=False)
