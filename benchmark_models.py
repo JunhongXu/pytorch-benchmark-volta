@@ -21,8 +21,8 @@ MODEL_LIST = {
 parser = argparse.ArgumentParser(description='PyTorch Benchmarking')
 parser.add_argument('--WARM_UP','-w', type=int,default=10, required=False, help="Num of warm up")
 parser.add_argument('--NUM_TEST','-n', type=int,default=100,required=False, help="Num of Test")
-parser.add_argument('--BATCH_SIZE','-b', type=int, default=32, required=False, help='Num of batch size')
-parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
+parser.add_argument('--BATCH_SIZE','-b', type=int, default=16, required=False, help='Num of batch size')
+parser.add_argument('--NUM_CLASSES','-c', type=int, default=100, required=False, help='Num of class')
 parser.add_argument('--DATA_TYPE','-t', type=int, default=1, required=False, help='Floating data type Ex Double ,Float ,Half')
 args = parser.parse_args()
 torch.backends.cudnn.benchmark = True
@@ -38,15 +38,12 @@ def train():
             if args.DATA_TYPE is 1:
                 model=model.double()
                 img=img.double()
-                target=target.double()
             elif args.DATA_TYPE is 2:
                 model=model.float()
                 img=img.float()
-                target=target.float()
             elif args.DATA_TYPE is 3:
                 model=model.half()
                 img=img.half()
-                target=target.half()
             model.cuda()
             model.train()
             durations = []
