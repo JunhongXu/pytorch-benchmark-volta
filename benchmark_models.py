@@ -41,13 +41,13 @@ def train():
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
+            model.cuda()
             if args.DATA_TYPE is 1:
                 model=model.Double()
             elif args.DATA_TYPE is 2:
                 model=model.Float()
             elif args.DATA_TYPE is 3:
                 model=model.Half()
-            model.cuda()
             model.train()
             durations = []
             print('Benchmarking %s' % (model_name))
@@ -73,13 +73,13 @@ def inference():
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)()
+            model.cuda()
             if args.DATA_TYPE is 1:
                 model=model.Double()
             elif args.DATA_TYPE is 2:
                 model=model.Float()
             elif args.DATA_TYPE is 3:
                 model=model.Half()
-            model.cuda()
             model.eval()
             durations = []
             print('Benchmarking %s' % (model_name))
