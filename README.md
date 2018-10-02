@@ -11,17 +11,20 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 |:-------:|:-------:|:-------:|:-------:|
 |Process|16nm|12nm|12nm|
 |Die Size|471mm²|754mm²|815mm²|
-|Transistors|12 Billion|18.6 Billion|21.1Billion|
+|Transistors|11,800 million|18,600 million|21,100 million|
 |CUDA Cores|3584 Cores|4352 Cores|5120 Cores|
-|Clock|1480 MHz|1350 MHz|1455 MHz|
-|Compute(single precision)|11.5 TFLOPs|13.4 TFLOPs|13.8 TFLOPS|
+|Tensor Cores|None|544 Cores|640 Cores|
+|Clock(base)|1481 MHz|1350 MHz|1200 MHz|
+|FP16 (half) performance|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|
+|FP32 (float) performance|11,340 GFLOPS|13,448 GFLOPS|14,899 GFLOPS|
+|FP64 (double) performance|354.4 GFLOPS |420.2 GFLOPS|7,450 GFLOPS|
 |Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|
 |Memory Speed|11Gbps|14.00 Gbps|1.7Gbps HBM2|
 |Memory Interface|352-bit|352-bit|3072-bit|
-|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s
+|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s|
 |Price|$699 US|$1,199 US|$2,999 US|
-
-
+|Release Date|Mar 10th, 2017|Sep 20th, 2018|Dec 7th, 2017|
+[_reference site_](https://www.techpowerup.com/gpu-specs/)
 
 
 
