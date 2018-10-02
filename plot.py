@@ -11,13 +11,13 @@ from collections import namedtuple
 
 def arr_train():
     result_path=os.path.join(os.getcwd(),'results')
-    arr_train=[i for i in glob.glob(t+'/*training*.csv')]
+    arr_train=[i for i in glob.glob(result_path+'/*training*.csv')]
     arr_train.sort()
     return arr_train
 
 def arr_inference():
     result_path=os.path.join(os.getcwd(),'results')
-    arr_inference=[i for i in glob.glob(t+'/*inference*.csv')]
+    arr_inference=[i for i in glob.glob(result_path+'/*inference*.csv')]
     arr_inference.sort()
     return arr_inference
 
