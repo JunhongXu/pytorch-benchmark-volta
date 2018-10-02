@@ -55,7 +55,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161**
 
 ### Comparison between networks (single GPU)
 
-Each network is fed with 16 images with 224x224x3 dimensions.
+Each network is fed with 12 images with 224x224x3 dimensions.
 For training, time durations of 20 passes of forward and backward are averaged. For inference, time durations of
 20 passes of forward are averaged. 5 warm up steps are performed that do not calculate towards the final result.
 
