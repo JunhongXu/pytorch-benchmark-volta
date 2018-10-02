@@ -1,6 +1,6 @@
 """Compare speed of different models with batch size 16"""
 import torch
-from torchvision.models import resnet, densenet, vgg, squeezenet
+from torchvision.models import resnet, densenet, vgg, squeezenet,inception
 from torch.autograd import Variable
 from info_utils import print_info
 import torch.nn as nn
@@ -8,6 +8,7 @@ import time
 import pandas
 import argparse
 import os
+from plot import *
 print_info()
 
 MODEL_LIST = {
@@ -17,16 +18,19 @@ MODEL_LIST = {
     vgg: vgg.__all__[5:]
 }
 
+precision=["single","double","half"]
+device_name=torch.cuda.get_device_name(0)
+
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch Benchmarking')
 parser.add_argument('--WARM_UP','-w', type=int,default=5, required=False, help="Num of warm up")
-parser.add_argument('--NUM_TEST','-n', type=int,default=80,required=False, help="Num of Test")
+parser.add_argument('--NUM_TEST','-n', type=int,default=20,required=False, help="Num of Test")
 parser.add_argument('--BATCH_SIZE','-b', type=int, default=16, required=False, help='Num of batch size')
 parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
-parser.add_argument('--DATA_TYPE','-t', type=int, default=1, required=False, help='Floating data type Ex Double ,Float ,Half')
+
 args = parser.parse_args()
 torch.backends.cudnn.benchmark = True
-def train():
+def train(type='single'):
     """use fake image for training speed test"""
     img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224)).cuda()
     target = Variable(torch.LongTensor(args.BATCH_SIZE).random_(args.NUM_CLASSES)).cuda()
@@ -34,20 +38,20 @@ def train():
     benchmark = {}
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
-            model = getattr(model_type, model_name)()
-            if args.DATA_TYPE is 1:
+            model = getattr(model_type, model_name)(pretrained=False)
+            if type is 'double':
                 model=model.double()
                 img=img.double()
-            elif args.DATA_TYPE is 2:
+            elif type is 'single':
                 model=model.float()
                 img=img.float()
-            elif args.DATA_TYPE is 3:
+            elif type is 'half':
                 model=model.half()
                 img=img.half()
             model.cuda()
             model.train()
             durations = []
-            print('Benchmarking %s' % (model_name))
+            print('Benchmarking Training '+type+' precision type %s' % (model_name))
             for step in range(args.WARM_UP + args.NUM_TEST):
                 torch.cuda.synchronize()
                 start = time.time()
@@ -63,45 +67,51 @@ def train():
             benchmark[model_name] = durations
     return benchmark
 
-def inference():
+def inference(type='single'):
     benchmark = {}
-    img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224), volatile=True).cuda()
-    for model_type in MODEL_LIST.keys():
-        for model_name in MODEL_LIST[model_type]:
-            model = getattr(model_type, model_name)()
-            if args.DATA_TYPE is 1:
-                model=model.double()
-                img=img.double()
-            elif args.DATA_TYPE is 2:
-                model=model.float()
-                img=img.float()
-            elif args.DATA_TYPE is 3:
-                model=model.half()
-                img=img.half()
-            model.cuda()
-            model.eval()
-            durations = []
-            print('Benchmarking %s' % (model_name))
-            for step in range(args.WARM_UP + args.NUM_TEST):
-                torch.cuda.synchronize()
-                start = time.time()
-                model.forward(img)
-                torch.cuda.synchronize()
-                end = time.time()
-                if step >= args.WARM_UP:
-                    durations.append((end - start)*1000)
-            del model
-            benchmark[model_name] = durations
+    img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224), requires_grad=True).cuda()
+    with torch.no_grad():
+        for model_type in MODEL_LIST.keys():
+            for model_name in MODEL_LIST[model_type]:
+                model = getattr(model_type, model_name)(pretrained=False)
+                if type is 'double':
+                    model=model.double()
+                    img=img.double()
+                elif type is 'single':
+                    model=model.float()
+                    img=img.float()
+                elif type is 'half':
+                    model=model.half()
+                    img=img.half()
+                model.cuda()
+                model.eval()
+                durations = []
+                print('Benchmarking Inference '+type+' precision type %s ' % (model_name))
+                for step in range(args.WARM_UP + args.NUM_TEST):
+                    torch.cuda.synchronize()
+                    start = time.time()
+                    model.forward(img)
+                    torch.cuda.synchronize()
+                    end = time.time()
+                    if step >= args.WARM_UP:
+                        durations.append((end - start)*1000)
+                del model
+                benchmark[model_name] = durations
     return benchmark
 
 
 
 if __name__ == '__main__':
-    os.makedirs('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE))
-    training_benchmark = pandas.DataFrame(train())
-    training_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark.csv', index=False)
-    training_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_training_benchmark_describe.csv', index=False)
-
-    inference_benchmark = pandas.DataFrame(inference())
-    inference_benchmark.to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark.csv', index=False)
-    inference_benchmark.describe().to_csv('results/'+str(args.WARM_UP)+'/'+str(args.NUM_TEST)+'/'+str(args.BATCH_SIZE)+'/'+str(args.NUM_CLASSES)+'/'+str(args.DATA_TYPE)+'/model_inference_benchmark_describe.csv', index=False)
+    os.makedirs('results', exist_ok=True)
+    for i in precision:
+        training_benchmark = pandas.DataFrame(train(i))
+        training_benchmark.to_csv('results/'+device_name+"_"+i+'_model_training_benchmark.csv', index=False)
+        inference_benchmark = pandas.DataFrame(inference(i))
+        inference_benchmark.to_csv('results/'+device_name+"_"+i+'_model_inference_benchmark.csv', index=False)
+    train=arr_train()
+    inference=arr_inference()
+    total_model(train)
+    total_model(inference)
+    for i in ['densenet','vgg','squeezenet','resnet']:
+        model_plot(train,i)
+        model_plot(inference,i)
