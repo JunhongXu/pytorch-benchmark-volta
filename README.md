@@ -1,50 +1,66 @@
-## Goal
+# About
+Comparison of learning and inference speed of different gpu with various cnn models in __pytorch__
 
-Performance of popular deep learning models on DGX-1 GPUs. DGX-1 GPUs are Tesla V100 with the following specs:
+* 1080TI
+* TITAN V
+* 2080TI
 
-1. 15.7 TeraFLOPS.
-2. 125 TeraFLOPS for deep learning.
-3. 900 GB/S bandwidth.
-4. 640 TensorCores.
-5. 5120 CUDA cores.
+# Specification
 
-The following tasks are compared:
+|Graphics Card Name|NVIDIA GeForce GTX 1080 Ti|NVIDIA GeForce RTX 2080 Ti|NVIDIA TITAN V
+|:-------:|:-------:|:-------:|:-------:|
+|Process|16nm|12nm|12nm|
+|Die Size|471mm²|754mm²|815mm²|
+|Transistors|12 Billion|18.6 Billion|21.1Billion|
+|CUDA Cores|3584 Cores|4352 Cores|5120 Cores|
+|Clock|1480 MHz|1350 MHz|1455 MHz|
+|Compute(single precision)|11.5 TFLOPs|13.4 TFLOPs|13.8 TFLOPS|
+|Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|
+|Memory Speed|11Gbps|14.00 Gbps|1.7Gbps HBM2|
+|Memory Interface|352-bit|352-bit|3072-bit|
+|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s
+|Price|$699 US|$1,199 US|$2,999 US|
 
-1. Single GPU with batch size 16: compare training and inference speed of **SequeezeNet, VGG-16, VGG-19, ResNet18, ResNet34, ResNet50, ResNet101, 
+
+
+
+
+1. Single GPU with batch size 16: compare training and inference speed of **SequeezeNet, VGG-16, VGG-19, ResNet18, ResNet34, ResNet50, ResNet101,
 ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161**
 
-2. Multiple GPUs vs variant batch sizes: from the initial observation of using 8 GPUs to do inference using batch size with 16
-gives me much lower speed. I assume this might be caused by communication between GPUs, but I am not sure what information is ported
-from one GPU to others. This experiment wants to find how the computation speed changes 
-when we change # of GPUs and the batch size. ResNet18 is used across this experiment.
-    - 1 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 2 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 3 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 4 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 5 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 6 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 6 GPU with batch size [2 ** x for x in range(4, 12)]
-    - 8 GPU with batch size [2 ** x for x in range(4, 12)]
-    
+2. Experiments are performed on three types of datatype. single precision, double precision, half precision
+
+3. making plot
+
+## Usage
+
+`./test.sh`
+
 ## Results
 
-### Comparison between networks (single GPU, training)
+###  requirement
+* python3-tk
+* matplotlib
+* pandas
+* PyTorch
+* torchvision
+
+### Environment
+
+* Pytorch version `1.0.0a0+2cbcaf4`
+* Number of GPUs on current device `1`
+* CUDA version = `10.0.130`
+* CUDNN version= `7301`
+
+
+### Comparison between networks (single GPU)
 
 Each network is fed with 16 images with 224x224x3 dimensions.
-For training, time durations of 20 passes of forward and backward are averaged. For inference, time durations of 
+For training, time durations of 20 passes of forward and backward are averaged. For inference, time durations of
 20 passes of forward are averaged. 5 warm up steps are performed that do not calculate towards the final result.
 
 
-|   Mode  |squeezenet1_1| resnet18|seqeezenet1_0| resnet34| resnet50  |densenet121| vgg16 |densenet169| vgg19 |resnet101|densenet201|resnet152|densenet161|
-|:-------:| :----------:|:-------:|:-----------:|:-------:|:---------:| ---------:|:-----:|:---------:|:-----:|:------:|:---------:|:-------:|:---------:|
-|Training | 17.16ms     |18.09ms  |   18.58ms   | 30.04ms | 55.07ms   |  66.56ms  |76.74ms|  85.95ms  |88.35ms| 93.59ms| 108.81ms  |131.27ms |  131.55ms |
-|Inference| 3.32ms      |5.03ms   |   5.24ms    | 8.51ms  | 15.74ms   |20.289ms   |23.83ms|  27.73ms  |27.66ms| 26.65ms|  36.27    |38.01ms  |   41.19ms |
-
-
-### Comparison between GPUs on variant batch sizes (inference only)
-
-ResNet18 is used for the comparison. Legend indicates batch size, x-axis is number of GPUs, y-axis is averaged duration 
-of 20 forward passes. When # of GPUs is smaller than 256, 1 GPU has the best performance. When # of GPUs is larger than 256, 
-more GPUs give faster computation, but adding GPU beyond 2 does not help.
-
-![](results/gpu_batch_size.png)
+|   Mode  |gpu|precision|squeezenet1_1| resnet18|seqeezenet1_0| resnet34| resnet50  |densenet121| vgg16 |densenet169| vgg19 |resnet101|densenet201|resnet152|densenet161|
+|:-------:| :----:|:--:|:----------:|:-------:|:-----------:|:-------:|:---------:| ---------:|:-----:|:---------:|:-----:|:------:|:---------:|:-------:|:---------:|
+|Training | TITAN V|single|17.16ms     |18.09ms  |   18.58ms   | 30.04ms | 55.07ms   |  66.56ms  |76.74ms|  85.95ms  |88.35ms| 93.59ms| 108.81ms  |131.27ms |  131.55ms |
+|Inference| TITAN V|single|3.32ms      |5.03ms   |   5.24ms    | 8.51ms  | 15.74ms   |20.289ms   |23.83ms|  27.73ms  |27.66ms| 26.65ms|  36.27    |38.01ms  |   41.19ms |
