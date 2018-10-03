@@ -97,13 +97,25 @@ _I conducted the experiment using two rtx 2080ti._
 |Inference| RTX 2080ti(2)|half|3.520 ms|5.837 ms|9.272 ms|14.93 ms|21.13 ms|13.38 ms|18.71 ms|22.40 ms|26.82 ms|4.446 ms|2.406 ms|16.29 ms|17.91 ms|20.90 ms|19.14 ms|
 
 ## TitanV
+
+### inference
+
 ![titan](fig/TITANV/total.png)
 ![titan](fig/TITANV/resnet.png)
 ![titan](fig/TITANV/vgg.png)
 ![titan](fig/TITANV/squeezenet.png)
 ![titan](fig/TITANV/densenet.png)
 
+### training
+
+![titan](fig/TITANV/resnet_training.png)
+![titan](fig/TITANV/vgg_training.png)
+![titan](fig/TITANV/squeezenet_training.png)
+![titan](fig/TITANV/densenet_training.png)
+
 ## GTX 1080ti
+
+### inference
 
 ![1080ti](fig/1080ti/total.png)
 ![1080ti](fig/1080ti/resnet.png)
@@ -111,10 +123,104 @@ _I conducted the experiment using two rtx 2080ti._
 ![1080ti](fig/1080ti/squeezenet.png)
 ![1080ti](fig/1080ti/densenet.png)
 
+### training
+
+![1080ti](fig/1080ti/resnet_training.png)
+![1080ti](fig/1080ti/vgg_training.png)
+![1080ti](fig/1080ti/squeezenet_training.png)
+![1080ti](fig/1080ti/densenet_training.png)
+
+
 ## RTX2080 TI
+
+### inference
 
 ![RTX2080 TI](fig/rtx2080ti(1)/total.png)
 ![RTX2080 TI](fig/rtx2080ti(1)/resnet.png)
 ![RTX2080 TI](fig/rtx2080ti(1)/vgg.png)
 ![RTX2080 TI](fig/rtx2080ti(1)/squeezenet.png)
 ![RTX2080 TI](fig/rtx2080ti(1)/densenet.png)
+
+### training
+
+![RTX2080 TI](fig/rtx2080ti(1)/resnet_training.png)
+![RTX2080 TI](fig/rtx2080ti(1)/vgg_training.png)
+![RTX2080 TI](fig/rtx2080ti(1)/squeezenet_training.png)
+![RTX2080 TI](fig/rtx2080ti(1)/densenet_training.png)
+
+
+## Device comparison
+
+### Training
+
+#### Vgg
+
+##### Single
+![](fig/device/vgg_training_single.png)
+##### Half
+![](fig/device/vgg_training_half.png)
+##### Double
+![](fig/device/vgg_training_double.png)
+#### ResNet
+
+##### Single
+![](fig/device/resnet_training_single.png)
+##### Half
+![](fig/device/resnet_training_half.png)
+##### Double
+![](fig/device/resnet_training_double.png)
+
+#### DenseNet
+
+##### Single
+![](fig/device/densenet_training_single.png)
+##### Half
+![](fig/device/densenet_training_half.png)
+##### Double
+![](fig/device/densenet_training_double.png)
+
+#### SqueezeNet
+
+##### Single
+![](fig/device/squeezenet_training_single.png)
+##### Half
+![](fig/device/squeezenet_training_half.png)
+##### Double
+![](fig/device/squeezenet_training_double.png)
+
+### inference
+
+#### Vgg
+
+##### Single
+![](fig/device/vgg_inference_single.png)
+##### Half
+![](fig/device/vgg_inference_half.png)
+##### Double
+![](fig/device/vgg_inference_double.png)
+#### ResNet
+
+##### Single
+![](fig/device/resnet_inference_single.png)
+##### Half
+![](fig/device/resnet_inference_half.png)
+##### Double
+![](fig/device/resnet_inference_double.png)
+
+#### DenseNet
+
+##### Single
+![](fig/device/densenet_inference_single.png)
+##### Half
+![](fig/device/densenet_inference_half.png)
+##### Double
+![](fig/device/densenet_inference_double.png)
+
+#### SqueezeNet
+
+##### Single
+![](fig/device/squeezenet_inference_single.png)
+##### Half
+![](fig/device/squeezenet_inference_half.png)
+##### Double
+![](fig/device/squeezenet_inference_double.png)

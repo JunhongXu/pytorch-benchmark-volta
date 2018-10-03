@@ -115,3 +115,6 @@ if __name__ == '__main__':
     for i in ['densenet','vgg','squeezenet','resnet']:
         model_plot(train,i)
         model_plot(inference,i)
+        for j in precision:
+            model_plot2(arr_type(train,j),i)
+            model_plot2(arr_type(inference,j),i)
