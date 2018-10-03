@@ -24,6 +24,7 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 |Memory Bandwidth|484 GB/s|616 GB/s|653GB/s|
 |Price|$699 US|$1,199 US|$2,999 US|
 |Release Date|Mar 10th, 2017|Sep 20th, 2018|Dec 7th, 2017|
+
 [_reference site_](https://www.techpowerup.com/gpu-specs/)
 
 
