@@ -18,29 +18,31 @@ MODEL_LIST = {
     vgg: vgg.__all__[5:]
 }
 
-precision=["single","double","half"]
+precision=["single","half",'double']
 device_name=torch.cuda.get_device_name(0)
 
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch Benchmarking')
 parser.add_argument('--WARM_UP','-w', type=int,default=5, required=False, help="Num of warm up")
-parser.add_argument('--NUM_TEST','-n', type=int,default=20,required=False, help="Num of Test")
-parser.add_argument('--BATCH_SIZE','-b', type=int, default=30, required=False, help='Num of batch size')
+parser.add_argument('--NUM_TEST','-n', type=int,default=50,required=False, help="Num of Test")
+parser.add_argument('--BATCH_SIZE','-b', type=int, default=20, required=False, help='Num of batch size')
 parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
 parser.add_argument('--NUM_GPU','-g', type=int, default=1, required=False, help='Num of class')
 
 args = parser.parse_args()
+device_name+='_'+str(args.NUM_GPU)+'_gpus_'
+args.BATCH_SIZE*=args.NUM_GPU
 torch.backends.cudnn.benchmark = True
 def train(type='single'):
     """use fake image for training speed test"""
     img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224)).cuda()
     target = Variable(torch.LongTensor(args.BATCH_SIZE).random_(args.NUM_CLASSES)).cuda()
-    criterion = nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss()dock
     benchmark = {}
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
             model = getattr(model_type, model_name)(pretrained=False)
-            if NUM_GPU > 1:
+            if args.NUM_GPU > 1:
                 model = nn.DataParallel(model)
             if type is 'double':
                 model=model.double()
@@ -77,7 +79,7 @@ def inference(type='single'):
         for model_type in MODEL_LIST.keys():
             for model_name in MODEL_LIST[model_type]:
                 model = getattr(model_type, model_name)(pretrained=False)
-                if NUM_GPU > 1:
+                if args.NUM_GPU > 1:
                     model = nn.DataParallel(model)
                 if type is 'double':
                     model=model.double()
@@ -115,11 +117,7 @@ if __name__ == '__main__':
         inference_benchmark.to_csv('results/'+device_name+"_"+i+'_model_inference_benchmark.csv', index=False)
     train=arr_train()
     inference=arr_inference()
-    total_model(train)
-    total_model(inference)
-    for i in ['densenet','vgg','squeezenet','resnet']:
-        model_plot(train,i)
-        model_plot(inference,i)
-        for j in precision:
-            model_plot2(arr_type(train,j),i)
-            model_plot2(arr_type(inference,j),i)
+
+
+    total_model(train,device_name)
+    total_model(inference,device_name)

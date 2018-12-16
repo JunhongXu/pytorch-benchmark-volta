@@ -22,7 +22,7 @@ def arr_inference():
     return arr_inference
 
 
-def total_model(arr):
+def total_model(arr,device_name):
 
     model_name=arr[0].split('/')[-1].split('_')[0]
     type=arr[0].split('/')[-1].split('_')[3]
@@ -73,7 +73,7 @@ def total_model(arr):
     ax.legend()
 
     fig.tight_layout()
-    plt.savefig('total.png',dpi=300)
+    plt.savefig(device_name+'total.png',dpi=400)
 
 
 
