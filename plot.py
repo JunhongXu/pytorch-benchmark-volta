@@ -2,11 +2,12 @@ import numpy as np
 import pandas as pd
 import os
 import glob
+import matplotlib
+matplotlib.use('TkAgg')
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from collections import namedtuple
-
 
 
 def arr_train():

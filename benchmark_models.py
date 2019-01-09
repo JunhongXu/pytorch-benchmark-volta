@@ -9,6 +9,7 @@ import pandas
 import argparse
 import os
 from plot import *
+
 print_info()
 
 MODEL_LIST = {

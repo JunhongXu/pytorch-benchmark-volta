@@ -1,0 +1,4 @@
+matplotlib
+torchvision
+torch==0.4.1
+pandas
