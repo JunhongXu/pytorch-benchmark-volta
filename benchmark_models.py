@@ -37,7 +37,7 @@ def train(type='single'):
     """use fake image for training speed test"""
     img = Variable(torch.randn(args.BATCH_SIZE, 3, 224, 224)).cuda()
     target = Variable(torch.LongTensor(args.BATCH_SIZE).random_(args.NUM_CLASSES)).cuda()
-    criterion = nn.CrossEntropyLoss()dock
+    criterion = nn.CrossEntropyLoss()
     benchmark = {}
     for model_type in MODEL_LIST.keys():
         for model_name in MODEL_LIST[model_type]:
