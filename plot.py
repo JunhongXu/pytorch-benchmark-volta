@@ -8,17 +8,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from collections import namedtuple
+import sys
 
 
-def arr_train():
+def all_device_names():
     result_path=os.path.join(os.getcwd(),'results')
-    arr_train=[i for i in glob.glob(result_path+'/*training*.csv')]
+    names=[i for i in glob.glob(result_path+'/*training*.csv')]
+    names=[n.split('/')[-1] for n in names]
+    names=[n.split('_')[0] for n in names]
+    names=set(names) # remove duplicated names
+    return names
+
+def arr_train(device_name):
+    result_path=os.path.join(os.getcwd(),'results')
+    arr_train=[i for i in glob.glob(result_path+'/' + device_name + '*training*.csv')]
     arr_train.sort()
     return arr_train
 
-def arr_inference():
+def arr_inference(device_name):
     result_path=os.path.join(os.getcwd(),'results')
-    arr_inference=[i for i in glob.glob(result_path+'/*inference*.csv')]
+    arr_inference=[i for i in glob.glob(result_path+'/' + device_name + '*inference*.csv')]
     arr_inference.sort()
     return arr_inference
 
@@ -26,7 +35,7 @@ def arr_inference():
 def total_model(arr,device_name):
 
     model_name=arr[0].split('/')[-1].split('_')[0]
-    type=arr[0].split('/')[-1].split('_')[3]
+    type=arr[0].split('/')[-1].split('_')[-2]
     n_groups = 15
 
     double=pd.read_csv(arr[0])
@@ -45,9 +54,9 @@ def total_model(arr,device_name):
     fig, ax = plt.subplots()
 
     index = np.arange(n_groups)
-    bar_width = 0.35
+    bar_width = 0.25
 
-    opacity = 0.4
+    opacity = 0.6
     error_config = {'ecolor': '0.3'}
 
     rects1 = ax.bar(index, means_double, bar_width,
@@ -60,7 +69,7 @@ def total_model(arr,device_name):
                     yerr=std_half, error_kw=error_config,
                     label='half')
 
-    rects2 = ax.bar(index + bar_width*2, means_single, bar_width,
+    rects3 = ax.bar(index + bar_width*2, means_single, bar_width,
                     alpha=opacity, color='g',
                     yerr=std_single, error_kw=error_config,
                     label='single')
@@ -68,13 +77,13 @@ def total_model(arr,device_name):
     ax.set_xlabel('models')
     ax.set_ylabel('times(ms)')
     ax.set_title("total_"+type+"_"+model_name)
-    ax.set_xticks(index + bar_width / 2)
-    ax.set_xticklabels(double.columns,rotation=60, fontsize=9)
+    ax.set_xticks(index + bar_width)
+    ax.set_xticklabels(double.columns,rotation=90, fontsize=9)
 
     ax.legend()
 
     fig.tight_layout()
-    plt.savefig(device_name+'total.png',dpi=400)
+    plt.savefig(device_name+'_'+type+'_total.png',dpi=400)
 
 
 
@@ -233,3 +242,68 @@ def model_plot2(arr,model):
     ax.legend()
     fig.tight_layout()
     plt.savefig(model+'_'+type+'_'+model_name+'.png',dpi=300)
+
+
+# plot all given files on a single figure
+def plot_on_a_single_figure(filenames):
+    xlabels = []
+
+    # set plot size
+    plt.figure(figsize=(10,7.5))
+
+    for filename in filenames:
+        # retrieve infos from file name
+        basename_splitted = filename.split('/')[-1].split('_')
+        model_name = basename_splitted[0]
+        type = basename_splitted[-2] # training/inference
+        precision = basename_splitted[-4] # half/single/double
+
+        # load file and sort columns
+        data = pd.read_csv(filename)
+        data = data.sort_index(axis=1)
+
+        # ensure all data have same x labels
+        if xlabels:
+            # compare x labels order
+            assert (data.columns.tolist() == xlabels)
+        else:
+            # init x labels (1st file)
+            xlabels = data.columns.tolist()
+
+        # compute mean values
+        mean_values = data.mean().values
+
+        # plot data
+        plt.plot(mean_values, label = model_name + '_' + type + '_' + precision)
+
+    # set x labels
+    plt.xticks(range(len(xlabels)), xlabels, rotation='vertical')
+
+    # set axis labels, title, legend
+    plt.xlabel('models')
+    plt.ylabel('times (ms)')
+    #plt.title("Simple Plot")
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+
+
+if __name__ == '__main__':
+    #import ipdb ; ipdb.set_trace()
+    files = sys.argv[1:]
+    if files:
+        # plot all given files on the same figure
+        plot_on_a_single_figure(files)
+
+    else:
+      # plot all files in 'results' on separate figures
+      device_names = all_device_names()
+      for device_name in device_names:
+          print('device_name =', device_name)
+
+          train=arr_train(device_name)
+          inference=arr_inference(device_name)
+
+          total_model(train,device_name)
+          total_model(inference,device_name)
+
