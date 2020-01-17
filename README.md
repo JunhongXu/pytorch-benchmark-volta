@@ -287,7 +287,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
         <th colspan="3"><bold>Total(inference)<bold></th> 
     <tr>
@@ -478,7 +478,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
         <th colspan="3"><bold>Total(inference)<bold></th> 
     <tr>
@@ -668,7 +668,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
         <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
         <th colspan="3"><bold>Total(inference)<bold></th> 
     <tr>
