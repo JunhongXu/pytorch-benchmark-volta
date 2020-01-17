@@ -91,10 +91,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
         <th colspan="3"><h3>Total(inference)<h3></th> 
     <tr>
@@ -103,10 +103,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
      <th colspan="3"><h3>densenet(train)<h3></th> 
          <tr>
@@ -115,10 +115,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>      <th colspan="3"><h3>densenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -126,10 +126,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
          <th colspan="3"><h3>vgg(train)<h3></th> 
          <tr>
@@ -138,10 +138,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr> <th colspan="3"><h3>vgg(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -149,10 +149,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
              <th colspan="3"><h3>squeezenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -160,10 +160,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
     <th colspan="3"><h3>squeezenet(inference)<h3></th> 
     <tr>
@@ -172,10 +172,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                  <th colspan="3"><h3>shufflenetv2(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -183,10 +183,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>shufflenetv2(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -194,10 +194,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>resnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -205,10 +205,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>resnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -216,10 +216,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mobilenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -227,10 +227,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>mobilenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -238,10 +238,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mnasnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -249,10 +249,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
 <th colspan="3"><h3>mnasnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -260,10 +260,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
 
 
 
@@ -284,10 +284,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
         <th colspan="3"><h3>Total(inference)<h3></th> 
     <tr>
@@ -296,10 +296,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
      <th colspan="3"><h3>densenet(train)<h3></th> 
          <tr>
@@ -308,10 +308,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>      <th colspan="3"><h3>densenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -319,10 +319,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
          <th colspan="3"><h3>vgg(train)<h3></th> 
          <tr>
@@ -331,10 +331,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr> <th colspan="3"><h3>vgg(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -342,10 +342,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
              <th colspan="3"><h3>squeezenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -353,10 +353,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
     <th colspan="3"><h3>squeezenet(inference)<h3></th> 
     <tr>
@@ -365,10 +365,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                  <th colspan="3"><h3>shufflenetv2(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -376,10 +376,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>shufflenetv2(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -387,10 +387,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>resnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -398,10 +398,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>resnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -409,10 +409,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mobilenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -420,10 +420,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>mobilenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -431,10 +431,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mnasnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -442,10 +442,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
 <th colspan="3"><h3>mnasnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -453,10 +453,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
         
 </table>
 
@@ -475,10 +475,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
         <th colspan="3"><h3>Total(inference)<h3></th> 
     <tr>
@@ -487,10 +487,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
      <th colspan="3"><h3>densenet(train)<h3></th> 
          <tr>
@@ -499,10 +499,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>      <th colspan="3"><h3>densenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -510,10 +510,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
          <th colspan="3"><h3>vgg(train)<h3></th> 
          <tr>
@@ -522,10 +522,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr> <th colspan="3"><h3>vgg(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -533,10 +533,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
              <th colspan="3"><h3>squeezenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -544,10 +544,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
     <th colspan="3"><h3>squeezenet(inference)<h3></th> 
     <tr>
@@ -556,10 +556,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                  <th colspan="3"><h3>shufflenetv2(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -567,10 +567,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>shufflenetv2(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -578,10 +578,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>resnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -589,10 +589,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>resnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -600,10 +600,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mobilenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -611,10 +611,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>mobilenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -622,10 +622,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mnasnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -633,10 +633,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
 <th colspan="3"><h3>mnasnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -644,10 +644,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
         
 </table>
 
@@ -665,10 +665,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
         <th colspan="3"><h3>Total(inference)<h3></th> 
     <tr>
@@ -677,10 +677,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
      <th colspan="3"><h3>densenet(train)<h3></th> 
          <tr>
@@ -689,10 +689,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>      <th colspan="3"><h3>densenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -700,10 +700,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th>
     </tr>
          <th colspan="3"><h3>vgg(train)<h3></th> 
          <tr>
@@ -712,10 +712,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr> <th colspan="3"><h3>vgg(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -723,10 +723,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
              <th colspan="3"><h3>squeezenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -734,10 +734,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th>
     </tr>
     <th colspan="3"><h3>squeezenet(inference)<h3></th> 
     <tr>
@@ -746,10 +746,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                  <th colspan="3"><h3>shufflenetv2(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -757,10 +757,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>shufflenetv2(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -768,10 +768,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>resnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -779,10 +779,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>resnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -790,10 +790,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mobilenet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -801,10 +801,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
         <th colspan="3"><h3>mobilenet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -812,10 +812,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
                      <th colspan="3"><h3>mnasnet(train)<h3></th> 
          <tr>
         <th>Half</th>
@@ -823,10 +823,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
          <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=3 ></img></th></tr>
 <th colspan="3"><h3>mnasnet(inference)<h3></th> 
     <tr>
         <th>Half</th>
@@ -834,10 +834,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
         <th>Double</th>
     </tr>
     <tr>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=800></img></th>
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 height=350 width=700></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=3 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
-        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 height=350 width=700></img></th></tr>
+        <td><img src="./fig/new_2080ti/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=3 ></img></th></tr>
         
 </table>
 
@@ -892,7 +892,7 @@ _I conducted the experiment using two rtx 2080ti._
         <th colspan="1"> <h2>TitanV Total</h2></th> 
     </tr>
     <tr>
-       <td><img src="./fig/TITANV/total.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/TITANV/total.png" alt="" border=3 ></img></th>
  </tr>
 
 </table>
@@ -906,8 +906,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-       <td><img src="./fig/TITANV/densenet.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/TITANV/resnet.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/TITANV/densenet.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/TITANV/resnet.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -916,8 +916,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/TITANV/vgg.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/TITANV/squeezenet.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/TITANV/vgg.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/TITANV/squeezenet.png" alt="" border=3 ></img></th>
     </tr>
 
 </table>
@@ -933,8 +933,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/TITANV/densenet_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/TITANV/resnet_training.png" alt="" border=3 height=500 width=800></img></th>
+        <td><img src="./fig/TITANV/densenet_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/TITANV/resnet_training.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -943,8 +943,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/TITANV/vgg_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/TITANV/squeezenet_training.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/TITANV/vgg_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/TITANV/squeezenet_training.png" alt="" border=3 ></img></th>
     </tr>
 </table>
 
@@ -956,7 +956,7 @@ _I conducted the experiment using two rtx 2080ti._
         <th colspan="1"> <h2>1080ti Total</h2></th> 
     </tr>
     <tr>
-       <td><img src="./fig/1080ti/total.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/1080ti/total.png" alt="" border=3 ></img></th>
  </tr>
 
 </table>
@@ -970,8 +970,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-       <td><img src="./fig/1080ti/densenet.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/1080ti/resnet.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/1080ti/densenet.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/1080ti/resnet.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -980,8 +980,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/1080ti/vgg.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/1080ti/squeezenet.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/1080ti/vgg.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/1080ti/squeezenet.png" alt="" border=3 ></img></th>
     </tr>
 
 </table>
@@ -997,8 +997,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/1080ti/densenet_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/1080ti/resnet_training.png" alt="" border=3 height=500 width=800></img></th>
+        <td><img src="./fig/1080ti/densenet_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/1080ti/resnet_training.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -1007,8 +1007,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/1080ti/vgg_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/1080ti/squeezenet_training.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/1080ti/vgg_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/1080ti/squeezenet_training.png" alt="" border=3 ></img></th>
     </tr>
 </table>
 
@@ -1020,7 +1020,7 @@ _I conducted the experiment using two rtx 2080ti._
         <th colspan="1"> <h2>rtx2080ti Total</h2></th> 
     </tr>
     <tr>
-       <td><img src="./fig/rtx2080ti(1)/total.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/rtx2080ti(1)/total.png" alt="" border=3 ></img></th>
  </tr>
 
 </table>
@@ -1034,8 +1034,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-       <td><img src="./fig/rtx2080ti(1)/densenet.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/rtx2080ti(1)/resnet.png" alt="" border=3 height=500 width=800></img></th>
+       <td><img src="./fig/rtx2080ti(1)/densenet.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/rtx2080ti(1)/resnet.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -1044,8 +1044,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/rtx2080ti(1)/vgg.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/rtx2080ti(1)/squeezenet.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/rtx2080ti(1)/vgg.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/rtx2080ti(1)/squeezenet.png" alt="" border=3 ></img></th>
     </tr>
 
 </table>
@@ -1061,8 +1061,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>resnet</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/rtx2080ti(1)/densenet_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/rtx2080ti(1)/resnet_training.png" alt="" border=3 height=500 width=800></img></th>
+        <td><img src="./fig/rtx2080ti(1)/densenet_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/rtx2080ti(1)/resnet_training.png" alt="" border=3 ></img></th>
     </tr>
     <tr>
     </tr>
@@ -1071,8 +1071,8 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>squeezenet</h3></td>
     </tr>
     <tr>
-         <td><img src="./fig/rtx2080ti(1)/vgg_training.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/rtx2080ti(1)/squeezenet_training.png" alt="" border=3 height=500 width=800></img></th>
+         <td><img src="./fig/rtx2080ti(1)/vgg_training.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/rtx2080ti(1)/squeezenet_training.png" alt="" border=3 ></img></th>
     </tr>
 </table>
 
@@ -1091,9 +1091,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/vgg_training_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/vgg_training_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/vgg_training_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/vgg_training_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/vgg_training_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/vgg_training_double.png" alt="" border=3 ></img></td>
     </tr>
         <tr>
         <th colspan="3" align="center"> <h3>resnet </h3></th> 
@@ -1104,9 +1104,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/resnet_training_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/resnet_training_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/resnet_training_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/resnet_training_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/resnet_training_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/resnet_training_double.png" alt="" border=3 ></img></td>
     </tr>
         <tr>
         <th colspan="3" align="center"> <h3>densenet </h3></th> 
@@ -1117,9 +1117,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/densenet_training_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/densenet_training_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/densenet_training_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/densenet_training_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/densenet_training_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/densenet_training_double.png" alt="" border=3 ></img></td>
     </tr>
             <th colspan="3" align="center"> <h3>squeezenet </h3></th> 
     </tr>
@@ -1129,9 +1129,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/squeezenet_training_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/squeezenet_training_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/squeezenet_training_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/squeezenet_training_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/squeezenet_training_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/squeezenet_training_double.png" alt="" border=3 ></img></td>
     </tr>
 </table>
 
@@ -1153,9 +1153,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/vgg_inference_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/vgg_inference_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/vgg_inference_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/vgg_inference_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/vgg_inference_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/vgg_inference_double.png" alt="" border=3 ></img></td>
     </tr>
         <tr>
         <th colspan="3" align="center"> <h3>resnet </h3></th> 
@@ -1166,9 +1166,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/resnet_inference_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/resnet_inference_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/resnet_inference_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/resnet_inference_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/resnet_inference_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/resnet_inference_double.png" alt="" border=3 ></img></td>
     </tr>
         <tr>
         <th colspan="3" align="center"> <h3>densenet </h3></th> 
@@ -1179,9 +1179,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/densenet_inference_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/densenet_inference_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/densenet_inference_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/densenet_inference_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/densenet_inference_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/densenet_inference_double.png" alt="" border=3 ></img></td>
     </tr>
             <th colspan="3" align="center"> <h3>squeezenet </h3></th> 
     </tr>
@@ -1191,9 +1191,9 @@ _I conducted the experiment using two rtx 2080ti._
         <td align="center"><h3>double</h3></td>
     </tr>
     <tr>
-        <td><img src="./fig/device/squeezenet_inference_half.png" alt="" border=3 height=500 width=800></img></th>
-        <td><img src="./fig/device/squeezenet_inference_single.png" alt="" border=3 height=500 width=800></img></td>
-        <td><img src="./fig/device/squeezenet_inference_double.png" alt="" border=3 height=500 width=800></img></td>
+        <td><img src="./fig/device/squeezenet_inference_half.png" alt="" border=3 ></img></th>
+        <td><img src="./fig/device/squeezenet_inference_single.png" alt="" border=3 ></img></td>
+        <td><img src="./fig/device/squeezenet_inference_double.png" alt="" border=3 ></img></td>
     </tr>
 </table>
 
