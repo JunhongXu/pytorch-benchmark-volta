@@ -9,6 +9,9 @@ import argparse
 from torch.utils.data import Dataset, DataLoader
 
 torch.backends.cudnn.benchmark = True
+# https://discuss.pytorch.org/t/what-does-torch-backends-cudnn-benchmark-do/5936
+# This flag allows you to enable the inbuilt cudnn auto-tuner to find the best algorithm to use for your hardware. 
+# If you check it using the profile tool, the cnn method such as winograd, fft, etc. is used for the first iteration and the best operation is selected for the device.
 
 
 
@@ -24,6 +27,8 @@ MODEL_LIST = {
 }
 
 precisions=["float","half",'double']
+# For post-voltaic architectures, there is a possibility to use tensor-core at half precision.
+# Due to the gradient overflow problem, apex is recommended for practical use.
 device_name=str(torch.cuda.get_device_name(0))
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch Benchmarking')
@@ -32,6 +37,7 @@ parser.add_argument('--NUM_TEST','-n', type=int,default=50,required=False, help=
 parser.add_argument('--BATCH_SIZE','-b', type=int, default=12, required=False, help='Num of batch size')
 parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
 parser.add_argument('--NUM_GPU','-g', type=int, default=1, required=False, help='Num of gpus')
+parser.add_argument('--folder','-f', type=str, default='result', required=False, help='Num of gpus')
 args = parser.parse_args()
 args.BATCH_SIZE*=args.NUM_GPU
 class RandomDataset(Dataset):
@@ -110,8 +116,7 @@ def inference(type='float'):
 
 
 if __name__ == '__main__':
-    folder_name='new_results'
-    path=''
+    folder_name=args.folder
     device_name="".join((device_name, '_',str(args.NUM_GPU),'_gpus_'))
     system_configs=str(platform.uname())
     system_configs='\n'.join((system_configs,str(psutil.cpu_freq()),'cpu_count: '+str(psutil.cpu_count()),'memory_available: '+str(psutil.virtual_memory().available)))
@@ -122,6 +127,7 @@ if __name__ == '__main__':
     os.makedirs(folder_name, exist_ok=True)
     now = time.localtime()
     start_time=str("%04d/%02d/%02d %02d:%02d:%02d" % (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec))
+    
     print('benchmark start : ',start_time)
 
     for idx,value in enumerate(zip(temp,gpu_configs)):
