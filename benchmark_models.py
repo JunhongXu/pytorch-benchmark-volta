@@ -37,7 +37,7 @@ parser.add_argument('--NUM_TEST','-n', type=int,default=50,required=False, help=
 parser.add_argument('--BATCH_SIZE','-b', type=int, default=12, required=False, help='Num of batch size')
 parser.add_argument('--NUM_CLASSES','-c', type=int, default=1000, required=False, help='Num of class')
 parser.add_argument('--NUM_GPU','-g', type=int, default=1, required=False, help='Num of gpus')
-parser.add_argument('--folder','-f', type=str, default='result', required=False, help='Num of gpus')
+parser.add_argument('--folder','-f', type=str, default='result', required=False, help='folder to save results')
 args = parser.parse_args()
 args.BATCH_SIZE*=args.NUM_GPU
 class RandomDataset(Dataset):
