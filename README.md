@@ -78,7 +78,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Add ('TkAgg') for cli
   * Addition Muilt GPUS (DGX-station)
 
-### [2080ti result on (new_results)](doc/windows.md)
+### [2080ti result on (new_results)](doc/windows10.md)
 * thanks for olixu
 
 ### [2080ti result on ubuntu (new_results)](doc/new_result.md)
