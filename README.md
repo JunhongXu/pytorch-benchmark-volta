@@ -15,7 +15,7 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 |CUDA Cores|3584 Cores|4352 Cores|5120 Cores|4608 Cores|6912 Cores|
 |Tensor Cores|None|544 Cores|640 Cores|576 Cores|432 Cores|
 |Clock(base)|1481 MHz|1350 MHz|1200 MHz|1350 MHz|765 MHz|
-|FP16 (half)|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|32.62 TFLOPS77.97 TFLOPS|
+|FP16 (half)|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|32.62 TFLOPS|77.97 TFLOPS|
 |FP32 (float)|11,340 GFLOPS|13,448 GFLOPS|14,899 GFLOPS|16.31 TFLOPS|19.49 TFLOPS|
 |FP64 (double)|354.4 GFLOPS |420.2 GFLOPS|7,450 GFLOPS|509.8 GFLOPS|9.746 TFLOPS|
 |Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|24 GB GDDR6|40GB HBM2e|
@@ -86,9 +86,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Addition Muilt GPUS (DGX-station)
 
 ### [A100-SXM4(DGX A100)](doc/dgx-a100.md)
+- 2021/01/04
 
 ### [TitanRTX](doc/TITANRTX.md)
-
+- 2021/01/04
 
 ### [2080ti result on (new_results) windows10 system](doc/windows10.md)
 * thanks for olixu
