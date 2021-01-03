@@ -7,23 +7,23 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 
 # Specification
 
-|Graphics Card Name|NVIDIA GeForce GTX 1080 Ti|NVIDIA GeForce RTX 2080 Ti|NVIDIA TITAN V
-|:-------:|:-------:|:-------:|:-------:|
-|Process|16nm|12nm|12nm|
-|Die Size|471mm²|754mm²|815mm²|
-|Transistors|11,800 million|18,600 million|21,100 million|
-|CUDA Cores|3584 Cores|4352 Cores|5120 Cores|
-|Tensor Cores|None|544 Cores|640 Cores|
-|Clock(base)|1481 MHz|1350 MHz|1200 MHz|
-|FP16 (half) performance|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|
-|FP32 (float) performance|11,340 GFLOPS|13,448 GFLOPS|14,899 GFLOPS|
-|FP64 (double) performance|354.4 GFLOPS |420.2 GFLOPS|7,450 GFLOPS|
-|Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|
-|Memory Speed|11Gbps|14.00 Gbps|1.7Gbps HBM2|
-|Memory Interface|352-bit|352-bit|3072-bit|
-|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s|
-|Price|$699 US|$1,199 US|$2,999 US|
-|Release Date|Mar 10th, 2017|Sep 20th, 2018|Dec 7th, 2017|
+|Graphics Card Name|1080 Ti|2080 Ti|TITAN V|TITAN RTX|A100-PCIE
+|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|Process|16nm|12nm|12nm|12nm|7nm|
+|Die Size|471mm²|754mm²|815mm²|754mm²|826mm²
+|Transistors|11,800 million|18,600 million|21,100 million|18,600 million|54,200 million|
+|CUDA Cores|3584 Cores|4352 Cores|5120 Cores|4608 Cores|6912 Cores|
+|Tensor Cores|None|544 Cores|640 Cores|576 Cores|432 Cores|
+|Clock(base)|1481 MHz|1350 MHz|1200 MHz|1350 MHz|765 MHz|
+|FP16 (half)|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|32.62 TFLOPS77.97 TFLOPS|
+|FP32 (float)|11,340 GFLOPS|13,448 GFLOPS|14,899 GFLOPS|16.31 TFLOPS|19.49 TFLOPS|
+|FP64 (double)|354.4 GFLOPS |420.2 GFLOPS|7,450 GFLOPS|509.8 GFLOPS|9.746 TFLOPS|
+|Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|24 GB GDDR6|40GB HBM2e|
+|Memory Speed|11Gbps|14.00 Gbps|1.7Gbps |||
+|Memory Interface|352-bit|352-bit|3072-bit|384 bit|5120 bit
+|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s|672.0 GB/s|1,555 GB/s|
+|Price|$699 US|$1,199 US|$2,999 US|$2,499 US||
+|Release Date|Mar 10th, 2017|Sep 20th, 2018|Dec 7th, 2017|Dec 18th, 2018|Jun 22nd, 2020|
 
 [_reference site_](https://www.techpowerup.com/gpu-specs/)
 
@@ -43,7 +43,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 ## Results
 
 ###  requirement
-
+* python>=3.6(for f-formatting)
 * torchvision
 * torch>=1.0.0
 * pandas
@@ -58,12 +58,19 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 * Number of GPUs on current device `4`
 * CUDA version = `10.0`
 * CUDNN version= `7601`
-
-
+* `nvcr.io/nvidia/pytorch:20.10-py3` (docker container in A100)
 
 
 
 ### Change Log
+* 2021/01/04
+  * Addition result in A100 SXM4
+  * Addition result in TitanRTX
+  * Edit coding style benchmark_model
+    * f-formatting
+    * save option for json
+  * Edit test.sh for bash shell
+  * Edit README.md
 * 2020/09/01
   * Addition result in windows10
   * Edit README.md
@@ -72,13 +79,18 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Change plot method 
   * Add results of various model experiments(only 2080ti)
 * 2019/01/09
-  * PR Update typo (thank for johmathe)
+  * PR Update typo (thanks for johmathe)
   * Add requirements.txt
   * Add result figures
   * Add ('TkAgg') for cli
   * Addition Muilt GPUS (DGX-station)
 
-### [2080ti result on (new_results)](doc/windows10.md)
+### [A100-SXM4(DGX A100)](doc/dgx-a100.md)
+
+### [TitanRTX](doc/TITANRTX.md)
+
+
+### [2080ti result on (new_results) windows10 system](doc/windows10.md)
 * thanks for olixu
 
 ### [2080ti result on ubuntu (new_results)](doc/new_result.md)
@@ -121,8 +133,7 @@ _I conducted the experiment using two rtx 2080ti._
 |Training | RTX 2080ti(2)|double|381.9 ms|781.5 ms|971.6 ms|1900. ms|2777. ms|610.6 ms|744.7 ms|948.1 ms|1974. ms|191.9 ms|97.27 ms|3317. ms|3350. ms|4357. ms|4329. ms|
 |Inference| RTX 2080ti(2)|double|171.8 ms|341.7 ms|449.5 ms|849.5 ms|1231. ms|221.1 ms|275.2 ms|352.5 ms|938.9 ms|83.66 ms|36.48 ms|1715. ms|1721. ms|2294. ms|2289. ms|
 |Training | RTX 2080ti(2)|half|13.57 ms|22.97 ms|36.55 ms|59.10 ms|83.81 ms|51.74 ms|68.35 ms|81.21 ms|89.46 ms|15.75 ms|35.46 ms|55.28 ms|65.43 ms|75.75 ms|64.62 ms|
-|Inference| RTX 2080ti(2)|half|3.520 ms|5.837 ms|9.272 ms|14.93 ms|21.13 ms|13.38 ms|18.71 ms|22.40 ms|
-26.82 ms|4.446 ms|2.406 ms|16.29 ms|17.91 ms|20.90 ms|19.14 ms|
+|Inference| RTX 2080ti(2)|half|3.520 ms|5.837 ms|9.272 ms|14.93 ms|21.13 ms|13.38 ms|18.71 ms|22.40 ms|26.82 ms|4.446 ms|2.406 ms|16.29 ms|17.91 ms|20.90 ms|19.14 ms|
 
 ### [TitanV ,1080ti , 2080ti result(old_results)](doc/old_result.md)
 * Results using codes prior to 2020/01/17

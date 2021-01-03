@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -26,7 +26,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -38,7 +38,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>      <th colspan="3"><bold>densenet(inference)<bold></th> 
@@ -49,7 +49,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -61,7 +61,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr> <th colspan="3"><bold>vgg(inference)<bold></th> 
@@ -72,7 +72,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
              <th colspan="3"><bold>squeezenet(train)<bold></th> 
@@ -83,7 +83,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -95,7 +95,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                  <th colspan="3"><bold>shufflenetv2(train)<bold></th> 
@@ -106,7 +106,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>shufflenetv2(inference)<bold></th> 
@@ -117,7 +117,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>resnet(train)<bold></th> 
@@ -128,7 +128,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>resnet(inference)<bold></th> 
@@ -139,7 +139,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mobilenet(train)<bold></th> 
@@ -150,7 +150,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>mobilenet(inference)<bold></th> 
@@ -161,7 +161,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mnasnet(train)<bold></th> 
@@ -172,7 +172,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
 <th colspan="3"><bold>mnasnet(inference)<bold></th> 
@@ -183,7 +183,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_1_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
 
@@ -207,7 +207,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -219,7 +219,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -231,7 +231,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>      <th colspan="3"><bold>densenet(inference)<bold></th> 
@@ -242,7 +242,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -254,7 +254,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr> <th colspan="3"><bold>vgg(inference)<bold></th> 
@@ -265,7 +265,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
              <th colspan="3"><bold>squeezenet(train)<bold></th> 
@@ -276,7 +276,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                  <th colspan="3"><bold>shufflenetv2(train)<bold></th> 
@@ -299,7 +299,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>shufflenetv2(inference)<bold></th> 
@@ -310,7 +310,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>resnet(train)<bold></th> 
@@ -321,7 +321,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>resnet(inference)<bold></th> 
@@ -332,7 +332,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mobilenet(train)<bold></th> 
@@ -343,7 +343,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>mobilenet(inference)<bold></th> 
@@ -354,7 +354,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mnasnet(train)<bold></th> 
@@ -365,7 +365,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
 <th colspan="3"><bold>mnasnet(inference)<bold></th> 
@@ -376,7 +376,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_2_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
         
@@ -398,7 +398,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -410,7 +410,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -422,7 +422,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>      <th colspan="3"><bold>densenet(inference)<bold></th> 
@@ -433,7 +433,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -445,7 +445,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr> <th colspan="3"><bold>vgg(inference)<bold></th> 
@@ -456,7 +456,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
              <th colspan="3"><bold>squeezenet(train)<bold></th> 
@@ -467,7 +467,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -479,7 +479,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                  <th colspan="3"><bold>shufflenetv2(train)<bold></th> 
@@ -490,7 +490,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>shufflenetv2(inference)<bold></th> 
@@ -501,7 +501,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>resnet(train)<bold></th> 
@@ -512,7 +512,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>resnet(inference)<bold></th> 
@@ -523,7 +523,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mobilenet(train)<bold></th> 
@@ -534,7 +534,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>mobilenet(inference)<bold></th> 
@@ -545,7 +545,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mnasnet(train)<bold></th> 
@@ -556,7 +556,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
 <th colspan="3"><bold>mnasnet(inference)<bold></th> 
@@ -567,7 +567,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_3_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
         
@@ -588,7 +588,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -600,7 +600,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -612,7 +612,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>      <th colspan="3"><bold>densenet(inference)<bold></th> 
@@ -623,7 +623,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/densenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th>
     </tr>
@@ -635,7 +635,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr> <th colspan="3"><bold>vgg(inference)<bold></th> 
@@ -646,7 +646,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/vgg_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
              <th colspan="3"><bold>squeezenet(train)<bold></th> 
@@ -657,7 +657,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th>
     </tr>
@@ -669,7 +669,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/squeezenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                  <th colspan="3"><bold>shufflenetv2(train)<bold></th> 
@@ -680,7 +680,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>shufflenetv2(inference)<bold></th> 
@@ -691,7 +691,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/shufflenetv2_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>resnet(train)<bold></th> 
@@ -702,7 +702,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>resnet(inference)<bold></th> 
@@ -713,7 +713,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/resnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mobilenet(train)<bold></th> 
@@ -724,7 +724,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
         <th colspan="3"><bold>mobilenet(inference)<bold></th> 
@@ -735,7 +735,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mobilenet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
                      <th colspan="3"><bold>mnasnet(train)<bold></th> 
@@ -746,7 +746,7 @@
     </tr>
          <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_train.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__float_model_train.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_train.png" alt="" border=1 ></img></th></tr>
 <th colspan="3"><bold>mnasnet(inference)<bold></th> 
@@ -757,7 +757,7 @@
     </tr>
     <tr>
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
-        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__half_model_inference.png" alt="" border=1 ></img></th>
+        <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__float_model_inference.png" alt="" border=1 ></img></th>
                 <!-- considering it is on the same folder that .html file -->
         <td><img src="../fig/rtx2080ti_on_windows10/mnasnet_GeForce_RTX_2080_Ti_4_gpus__double_model_inference.png" alt="" border=1 ></img></th></tr>
         

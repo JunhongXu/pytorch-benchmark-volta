@@ -1,0 +1,14 @@
+benchmark start : 2021/01/03 18:57:36
+system_configs
+
+uname_result(system='Linux', node='7605e4b1d104', release='3.10.0-1127.19.1.el7.x86_64', version='#1 SMP Tue Aug 25 17:23:54 UTC 2020', machine='x86_64', processor='x86_64')
+                     scpufreq(current=2250.0, min=1500.0, max=2250.0)
+                    cpu_count: 256
+                    memory_available: 1047261941760
+gpu_configs
+
+Number of GPUs on current device : 4
+CUDA Version : 11.1
+Cudnn Version : 8004
+Device Name : A100-SXM4-40GB
+benchmark end : 2021/01/03 19:10:23
