@@ -4,6 +4,8 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 * 1080TI
 * TITAN V
 * 2080TI
+* Titan RTX
+* A100
 
 # Specification
 
