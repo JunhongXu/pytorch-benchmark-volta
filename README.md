@@ -5,7 +5,8 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 * TITAN V
 * 2080TI
 * Titan RTX
-* A100
+* A100-PCIE
+* A100-SXM4
 
 # Specification
 
@@ -65,6 +66,8 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 
 
 ### Change Log
+* 2021/01/05
+  * Addition result in A100 A100-PCIE(PR#14)
 * 2021/01/04
   * Addition result in A100 SXM4
   * Addition result in TitanRTX
@@ -86,6 +89,9 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Add result figures
   * Add ('TkAgg') for cli
   * Addition Muilt GPUS (DGX-station)
+
+### [A100-PCIE(DGX A100)](doc/a100-pcie.md)
+- 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 
 ### [A100-SXM4(DGX A100)](doc/dgx-a100.md)
 - 2021/01/04
