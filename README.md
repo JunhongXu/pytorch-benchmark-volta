@@ -2,6 +2,7 @@
 Comparison of learning and inference speed of different gpu with various cnn models in __pytorch__
 
 * 1080TI
+* TITAN XP
 * TITAN V
 * 2080TI
 * Titan RTX
@@ -9,24 +10,25 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 * A100-SXM4
 
 # Specification
+| Graphics Card Name | 1080 Ti        | TITAN XP       | TITAN V        | 2080 Ti        | TITAN RTX      | A100-PCIE      |
+|:------------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+| Process            | 16nm           | 16nm           | 12nm           | 12nm           | 12nm           | 7nm            |
+| Die Size           | 471mm²         | 471mm²         | 815mm²         | 754mm²         | 754mm²         | 826mm²         |
+| Transistors        | 11,800 million | 11,800 million | 21,100 million | 18,600 million | 18,600 million | 54,200 million |
+| CUDA Cores         | 3584 Cores     | 3840 Cores     | 5120 Cores     | 4352 Cores     | 4608 Cores     | 6912 Cores     |
+| Tensor Cores       | None           | None           | 640 Cores      | 544 Cores      | 576 Cores      | 432 Cores      |
+| Clock(base)        | 1481 MHz       | 1405 Mhz       | 1200 MHz       | 1350 MHz       | 1350 MHz       | 765 MHz        |
+| FP16 (half)        | 177.2 GFLOPS   | 189.8GFLOPS    | 29,798 GFLOPS  | 26,895 GFLOPS  | 32.62 TFLOPS   | 77.97 TFLOPS   |
+| FP32 (float)       | 11,340 GFLOPS  | 12.15FLOPS     | 14,899 GFLOPS  | 13,448 GFLOPS  | 16.31 TFLOPS   | 19.49 TFLOPS   |
+| FP64 (double)      | 354.4 GFLOPS   | 379.7 GFLOPS   | 7,450 GFLOPS   | 420.2 GFLOPS   | 509.8 GFLOPS   | 9.746 TFLOPS   |
+| Memory             | 11GB GDDR5X    | GDDR5X         | 12 GB HBM2     | 11 GB GDDR6    | 24 GB GDDR6    | 40GB HBM2e     |
+| Memory Speed       | 11Gbps         |                | 1.7Gbps        | 14.00 Gbps     |                |                |
+| Memory Interface   | 352-bit        | 384bit         | 3072-bit       | 352-bit        | 384 bit        | 5120 bit       |
+| Memory Bandwidth   | 484 GB/s       | 547.6GB/s      | 653GB/s        | 616 GB/s       | 672.0 GB/s     | 1,555 GB/s     |
+| Price              | $699 US        | $1,199 US      | $2,999 US      | $1,199 US      | $2,499 US      |                |
+| Release Date       | Mar 10th, 2017 | Apr 6th 2017   | Dec 7th, 2017  | Sep 20th, 2018 | Dec 18th, 2018 | Jun 22nd, 2020 |
 
-|Graphics Card Name|1080 Ti|2080 Ti|TITAN V|TITAN RTX|A100-PCIE
-|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-|Process|16nm|12nm|12nm|12nm|7nm|
-|Die Size|471mm²|754mm²|815mm²|754mm²|826mm²
-|Transistors|11,800 million|18,600 million|21,100 million|18,600 million|54,200 million|
-|CUDA Cores|3584 Cores|4352 Cores|5120 Cores|4608 Cores|6912 Cores|
-|Tensor Cores|None|544 Cores|640 Cores|576 Cores|432 Cores|
-|Clock(base)|1481 MHz|1350 MHz|1200 MHz|1350 MHz|765 MHz|
-|FP16 (half)|177.2 GFLOPS|26,895 GFLOPS|29,798 GFLOPS|32.62 TFLOPS|77.97 TFLOPS|
-|FP32 (float)|11,340 GFLOPS|13,448 GFLOPS|14,899 GFLOPS|16.31 TFLOPS|19.49 TFLOPS|
-|FP64 (double)|354.4 GFLOPS |420.2 GFLOPS|7,450 GFLOPS|509.8 GFLOPS|9.746 TFLOPS|
-|Memory|11GB GDDR5X|11 GB GDDR6|12 GB HBM2|24 GB GDDR6|40GB HBM2e|
-|Memory Speed|11Gbps|14.00 Gbps|1.7Gbps |||
-|Memory Interface|352-bit|352-bit|3072-bit|384 bit|5120 bit
-|Memory Bandwidth|484 GB/s|616 GB/s|653GB/s|672.0 GB/s|1,555 GB/s|
-|Price|$699 US|$1,199 US|$2,999 US|$2,499 US||
-|Release Date|Mar 10th, 2017|Sep 20th, 2018|Dec 7th, 2017|Dec 18th, 2018|Jun 22nd, 2020|
+
 
 [_reference site_](https://www.techpowerup.com/gpu-specs/)
 
@@ -66,6 +68,8 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 
 
 ### Change Log
+* 2021/01/07
+  * Addition result in TITANXP
 * 2021/01/05
   * Addition result in A100 A100-PCIE(PR#14)
 * 2021/01/04
@@ -90,6 +94,8 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Add ('TkAgg') for cli
   * Addition Muilt GPUS (DGX-station)
 
+### [TITANXP](doc/TITANXP.md)
+- 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 ### [A100-PCIE(DGX A100)](doc/a100-pcie.md)
 - 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 

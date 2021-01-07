@@ -1,0 +1,14 @@
+benchmark start : 2021/01/07 17:16:17
+system_configs
+
+uname_result(system='Linux', node='g2', release='3.10.0-1062.9.1.el7.x86_64', version='#1 SMP Fri Dec 6 15:49:49 UTC 2019', machine='x86_64', processor='x86_64')
+                     scpufreq(current=1110.2, min=800.0, max=2201.0)
+                    cpu_count: 20
+                    memory_available: 132411400192
+gpu_configs
+
+Number of GPUs on current device : 4
+CUDA Version : 10.2
+Cudnn Version : 7605
+Device Name : TITAN Xp
+benchmark end : 2021/01/07 18:45:32
