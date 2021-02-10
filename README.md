@@ -1,5 +1,5 @@
 # About
-Comparison of learning and inference speed of different gpu with various cnn models in __pytorch__
+Comparison of learning and inference speed of different GPU with various CNN models in __pytorch__
 
 * 1080TI
 * TITAN XP
@@ -37,7 +37,7 @@ Comparison of learning and inference speed of different gpu with various cnn mod
 1. Single & multi GPU with batch size 12: compare training and inference speed of **SequeezeNet, VGG-16, VGG-19, ResNet18, ResNet34, ResNet50, ResNet101,
 ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet ... **
 
-2. Experiments are performed on three types of datatype. single precision, double precision, half precision
+2. Experiments are performed on three types of the datatype. single-precision, double-precision, half-precision
 
 3. making plot(plotly)
 
@@ -97,7 +97,7 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 ### [TITANXP](doc/TITANXP.md)
 - 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 ### [A100-PCIE(DGX A100)](doc/a100-pcie.md)
-- 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
+- 2021/01/05 Thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 
 ### [A100-SXM4(DGX A100)](doc/dgx-a100.md)
 - 2021/01/04
@@ -114,10 +114,10 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 ### Comparison between networks (single GPU)
 
 Each network is fed with 12 images with 224x224x3 dimensions.
-For training, time durations of 20 passes of forward and backward are averaged. For inference, time durations of
-20 passes of forward are averaged. 5 warm up steps are performed that do not calculate towards the final result.
+For training, time durations of 20 passes of forwarding and backward are averaged. For inference, time durations of
+20 passes of forwarding are averaged. 5 warm-up steps are performed that do not calculate towards the final result.
 
-_I conducted the experiment using two rtx 2080ti._
+_I conducted the experiment using two RTX 2080ti._
 
 
 |   Mode  |gpu|precision|densenet121|densenet161|densenet169|densenet201|resnet101|resnet152|resnet18|resnet34|resnet50|squeezenet1_0|squeezenet1_1|vgg16|vgg16_bn|vgg19|vgg19_bn|
@@ -157,4 +157,4 @@ _I conducted the experiment using two rtx 2080ti._
 ### [DGX](doc/dgx.md)
 
 ### contribute
-If you want to contribute to the experiment in an additional environment, please contribute to result by subfolder in fig.
+If you want to contribute to the experiment in an additional environment, please contribute to the result by subfolder in fig.
