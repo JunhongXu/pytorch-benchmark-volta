@@ -63,11 +63,14 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
 * Number of GPUs on current device `4`
 * CUDA version = `10.0`
 * CUDNN version= `7601`
-* `nvcr.io/nvidia/pytorch:20.10-py3` (docker container in A100)
+* `nvcr.io/nvidia/pytorch:20.10-py3` (docker container in A100 and 3090)
 
 
 
 ### Change Log
+* 2021/02/27
+  * Addition result in RTX3090
+  * Addition result in RTX2060(thanks for gutama)
 * 2021/01/07
   * Addition result in TITANXP
 * 2021/01/05
@@ -94,6 +97,12 @@ ResNet152, DenseNet121, DenseNet169, DenseNet201, DenseNet161 mobilenet mnasnet 
   * Add ('TkAgg') for cli
   * Addition Muilt GPUS (DGX-station)
 
+### [RTX-3090](doc/3090.md)
+- 2021/02/27 
+
+### [RTX-2060](doc/2060.md)
+- 2021/02/27 thanks for gutama [issue#16](https://github.com/ryujaehun/pytorch-gpu-benchmark/issues/16)
+- 
 ### [TITANXP](doc/TITANXP.md)
 - 2021/01/05 thanks for kirk86 [pr#14](https://github.com/ryujaehun/pytorch-gpu-benchmark/pull/14)
 ### [A100-PCIE(DGX A100)](doc/a100-pcie.md)

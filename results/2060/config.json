@@ -1,0 +1,8 @@
+{
+  "WARM_UP": 5,
+  "NUM_TEST": 50,
+  "BATCH_SIZE": 12,
+  "NUM_CLASSES": 1000,
+  "NUM_GPU": 1,
+  "folder": "result"
+}

@@ -1,0 +1,14 @@
+benchmark start : 2021/02/25 08:19:04
+system_configs
+
+uname_result(system='Linux', node='ee46a402ff20', release='5.4.0-66-generic', version='#74-Ubuntu SMP Wed Jan 27 22:54:38 UTC 2021', machine='x86_64', processor='x86_64')
+                     scpufreq(current=1501.6374375, min=1500.0, max=3000.0)
+                    cpu_count: 32
+                    memory_available: 266593185792
+gpu_configs
+
+Number of GPUs on current device : 4
+CUDA Version : 11.1
+Cudnn Version : 8004
+Device Name : GeForce RTX 3090
+benchmark end : 2021/02/25 09:07:15
