@@ -1,0 +1,14 @@
+benchmark start : 2021/02/14 16:36:02
+system_configs
+
+uname_result(system='Windows', node='alfarabi', release='10', version='10.0.21313', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+                     scpufreq(current=3000.0, min=0.0, max=3000.0)
+                    cpu_count: 16
+                    memory_available: 10673934336
+gpu_configs
+
+Number of GPUs on current device : 1
+CUDA Version : 11.0
+Cudnn Version : 8004
+Device Name : GeForce RTX 2060 with Max-Q Design
+benchmark end : 2021/02/14 20:30:35

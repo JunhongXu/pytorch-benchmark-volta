@@ -1,0 +1,14 @@
+benchmark start : 2021/01/03 20:55:21
+system_configs
+
+uname_result(system='Linux', node='n7.cluster', release='3.10.0-1127.19.1.el7.x86_64', version='#1 SMP Tue Aug 25 17:23:54 UTC 2020', machine='x86_64', processor='x86_64')
+scpufreq(current=1932.4351770833339, min=1000.0, max=2200.0)
+cpu_count: 96
+memory_available: 260925722624
+gpu_configs
+
+Number of GPUs on current device : 4
+CUDA Version : 10.2
+Cudnn Version : 7605
+Device Name : TITAN RTX
+benchmark end : 2021/01/03 22:14:40
